@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://nwuzmedoutlook.github.io</id>
-    <title>子穆二铎</title>
-    <updated>2021-02-10T06:43:49.981Z</updated>
+    <title>DAC导航-让校园生活更加精彩！</title>
+    <updated>2021-02-10T14:45:08.138Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://nwuzmedoutlook.github.io"/>
     <link rel="self" href="https://nwuzmedoutlook.github.io/atom.xml"/>
     <subtitle>不必匆忙，不必火花四溅，不必成为别人</subtitle>
     <logo>https://nwuzmedoutlook.github.io/images/avatar.png</logo>
     <icon>https://nwuzmedoutlook.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2021, 子穆二铎</rights>
+    <rights>All rights reserved 2021, DAC导航-让校园生活更加精彩！</rights>
     <entry>
         <title type="html"><![CDATA[测试]]></title>
         <id>https://nwuzmedoutlook.github.io/post/ce-shi/</id>
