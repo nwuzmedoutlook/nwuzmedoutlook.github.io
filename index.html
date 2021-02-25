@@ -12,7 +12,7 @@
     <link rel="shortcut icon" href="https://i.loli.net/2021/02/18/NhkgrqTDXepf9yV.png">
     <link rel="stylesheet" href="//fonts.loli.net/css?family=Arimo:400,700,400italic">
     <link rel="stylesheet" href="https://nwuzmedoutlook.github.io/media/css/icomoon.css">
-    <link rel="stylesheet" href="https://nwuzmedoutlook.github.io/media/css/main.css?v=1614237794437">
+    <link rel="stylesheet" href="https://nwuzmedoutlook.github.io/media/css/main.css?v=1614249825849">
     <meta name="bytedance-verification-code" content="pZgsucL7y/xIXvpHfBAF" />
 </head>
 
@@ -437,18 +437,51 @@
             <br />
             <br />
 
-<!-- ctrl+/  快速注释
+
+<!--  DAC搜索--跳转至中国黑客联盟
             <form action="http://www.chinahacker.com/" target="_blank">
                 <div align="center"> 
                     <input name=tn type=hidden value=hacker>
                     <a href="https://nwuzmed.ga/"><img src="https://i.loli.net/2021/02/21/sM8rK1elhHzdRpQ.png" alt="Baidu" align="middle" border="0"></a>
                     <input type=text name=word size=30>
                 </div>
-            </form> -->
+            </form>
+ -->
 
 
+<!-- 多引擎搜索，套用百度搜索框 -->
+            <SCRIPT language=javascript>
+            <!--
+            function go(formname)
+            {
+             var url = "http://www.baidu.com/baidu";
+             formname.method = "get";
+            if (formname.myselectvalue.value == "1") {
+              document.search_form1.word.value = document.search_form1.word.value+" site:www.zhihu.com/";
+            }
+            formname.action = url;
+            return true;
+            }
+            //-->
+            </SCRIPT>
+            <form name="search_form1" align="center" target="_blank" onsubmit="return go(this)">
+            <input name=word size="30" value="见到你很开心！" onMouseOver="this.focus()" onBlur="if (value ==''){value='见到你很开心！'}" onFocus="this.select()" onClick="if(this.value=='见到你很开心！')this.value=''">
+            <input type="submit" value="点我搜索吧"><br>
+            <INPUT name=myselectvalue type=hidden value=0>
+            <INPUT name=tn type=hidden value="baidu">
+            <INPUT name=cl type=hidden value="3">
+            <p style="line-height:250%">
+            <INPUT CHECKED name=myselect onclick=javascript:this.form.myselectvalue.value=0; type=radio value=0>
+            <FONT color=#808080 style="FONT-SIZE: 12px">百度😎</FONT> 
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <INPUT name=myselect onclick=javascript:this.form.myselectvalue.value=1; type=radio value=1>
+            <FONT color=#808080 style="FONT-SIZE: 12px">知乎🤣</FONT> 
+            </form>
+
+
+<!-- 谷歌自定义搜索
             <script async src="https://cse.google.com/cse.js?cx=bafc069360b5377f2"></script>
-            <div class="gcse-search"></div>
+            <div class="gcse-search"></div> -->
 
          <!-- 普通搜索 -->
             
@@ -17459,7 +17492,7 @@
                                 id="busuanzi_value_site_pv">
                             </span>次！</span>
                         <div class="text" style=" text-align:center;">
-                            <b> <a href="http://www.guoxue.com/book/xunzi/0001.htm"
+                            <b> <a href="http://magi.com/book/xunzi/0001.htm"
                                 target="_blank">本人非计算机相关专业，水平有限。在此结合个人学习、工作经历，收集整理了800+优质站点，部分内容偏向能源化工。欢迎大家批评，补充！ </a>
                             </b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                             <b>优质网址&好友链接入驻</b>
