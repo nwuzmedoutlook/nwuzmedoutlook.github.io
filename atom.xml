@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://github.com/nwuzmedoutlook/nwuzmedoutlook.github.io</id>
+    <id>https://nwuzmedoutlook.github.io</id>
     <title>DAC导航-让校园生活更加精彩！</title>
-    <updated>2021-03-09T10:30:37.569Z</updated>
+    <updated>2021-03-09T10:41:44.827Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://github.com/nwuzmedoutlook/nwuzmedoutlook.github.io"/>
-    <link rel="self" href="https://github.com/nwuzmedoutlook/nwuzmedoutlook.github.io/atom.xml"/>
-    <logo>https://github.com/nwuzmedoutlook/nwuzmedoutlook.github.io/images/avatar.png</logo>
-    <icon>https://github.com/nwuzmedoutlook/nwuzmedoutlook.github.io/favicon.ico</icon>
+    <link rel="alternate" href="https://nwuzmedoutlook.github.io"/>
+    <link rel="self" href="https://nwuzmedoutlook.github.io/atom.xml"/>
+    <logo>https://nwuzmedoutlook.github.io/images/avatar.png</logo>
+    <icon>https://nwuzmedoutlook.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, DAC导航-让校园生活更加精彩！</rights>
     <entry>
         <title type="html"><![CDATA[测试]]></title>
-        <id>https://github.com/nwuzmedoutlook/nwuzmedoutlook.github.io/post/ce-shi/</id>
-        <link href="https://github.com/nwuzmedoutlook/nwuzmedoutlook.github.io/post/ce-shi/">
+        <id>https://nwuzmedoutlook.github.io/post/ce-shi/</id>
+        <link href="https://nwuzmedoutlook.github.io/post/ce-shi/">
         </link>
         <updated>2021-02-10T04:38:07.000Z</updated>
         <content type="html"><![CDATA[<p>测试😎🤣🤖😆👍👩‍🎓🏭👨‍🎓🔬🎓🚴‍♀📺📚</p>
@@ -20,8 +20,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[关于]]></title>
-        <id>https://github.com/nwuzmedoutlook/nwuzmedoutlook.github.io/post/about/</id>
-        <link href="https://github.com/nwuzmedoutlook/nwuzmedoutlook.github.io/post/about/">
+        <id>https://nwuzmedoutlook.github.io/post/about/</id>
+        <link href="https://nwuzmedoutlook.github.io/post/about/">
         </link>
         <updated>2019-01-25T11:09:48.000Z</updated>
         <content type="html"><![CDATA[<blockquote>
@@ -35,8 +35,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[Hello Gridea]]></title>
-        <id>https://github.com/nwuzmedoutlook/nwuzmedoutlook.github.io/post/hello-gridea/</id>
-        <link href="https://github.com/nwuzmedoutlook/nwuzmedoutlook.github.io/post/hello-gridea/">
+        <id>https://nwuzmedoutlook.github.io/post/hello-gridea/</id>
+        <link href="https://nwuzmedoutlook.github.io/post/hello-gridea/">
         </link>
         <updated>2018-12-11T16:00:00.000Z</updated>
         <summary type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
