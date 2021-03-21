@@ -346,13 +346,13 @@ body {
 .sidebar-menu {
     display: table-cell;
     position: relative;
-    width: 280px;
+    width: 260px;
     background: #212529;
     z-index: 1
 }
 
 .sidebar-menu .logo-env {
-    padding: 19px 40px;
+    padding: 10px 20px;
     border-bottom: 1px solid #313437
 }
 
@@ -385,10 +385,10 @@ body {
 }
 
 .sidebar-menu .main-menu {
-    padding-left: 40px;
-    padding-right: 40px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     list-style: none
 }
 
@@ -403,7 +403,7 @@ body {
     color: #979898;
     text-decoration: none;
     display: block;
-    padding: 13px 5px;
+    padding: 10px 5px;   # 更改左侧菜单栏每行的高度
     border-bottom: 1px solid #313437
 }
 
@@ -938,7 +938,7 @@ body.chat-open .user-info-navbar a[data-toggle=chat] {
 .user-info-navbar .user-info-menu>li>a {
     position: relative;
     display: block;
-    padding: 30px 20px;
+    padding: 20px 20px;
     color: #979898;
     top: 1px;
     z-index: 5;
@@ -2318,7 +2318,7 @@ textarea {
 }
 
 a {
-    color: #428bca;
+    color: #130c0e;
     text-decoration: none;
 }
 
