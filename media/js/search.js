@@ -1,6 +1,6 @@
 document.writeln("<!-- 搜索栏	 -->");
 document.writeln("	<div id=\'search\'class=\'s-search\'>");
-document.writeln(" <iframe width=\"100%\"  height=\"60\"   frameborder=\"0\" allowtransparency=\"true\" src=\"//i.tianqi.com/index.php?c=code&id=12&icon=1&num=5&site=12\"></iframe>");
+document.writeln(" <iframe width=\"100%\"  height=\"96\"   frameborder=\"0\" allowtransparency=\"true\" src=\"//tianqi.2345.com/plugin/widget/index.htm?s=1&z=1&t=0&v=0&d=5&bd=0&k=&f=&ltf=009944&htf=cc0000&q=1&e=1&a=1&c=54511&w=575&h=96\"></iframe>");
 document.writeln("					<div id=\'search-list\'class=\'hide-type-list\'>");
 document.writeln("						<div class=\'s-type\'>");
 document.writeln("							<span></span>");
