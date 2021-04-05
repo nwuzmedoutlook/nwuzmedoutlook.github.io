@@ -18,17 +18,19 @@ document.writeln("							<ul class=\'search-type\'>");
 
 document.writeln("<li><input checked hidden type=\'radio\'name=\'type\'id=\'type-baidu\'value=\'https://www.baidu.com/s?wd=\'data-placeholder=\'百度一下\'><label for=\'type-baidu\'><span style=\'color:#003daa\'>百度</span></label></li>");
 document.writeln("");
-document.writeln("");document.writeln("<li><input checked hidden type=\'radio\'name=\'type\'id=\'type-maji\'value=\'https://magi.com/search?q=\'data-placeholder=\'智能引擎\'><label for=\'type-maji\'><span style=\'color:#003daa\'>MAGI</span></label></li>");
+document.writeln("");
+document.writeln("<li><input checked hidden type=\'radio\'name=\'type\'id=\'type-bing\'value=\'https://cn.bing.com/search?q=\'data-placeholder=\'Bing搜索\'><label for=\'type-bing\'><span style=\'color:#003daa\'>必应</span></label></li>");
 document.writeln("");
 
-document.writeln("");document.writeln("<li><input checked hidden type=\'radio\'name=\'type\'id=\'type-mijisou\'value=\'https://mijisou.com/?q=\'data-placeholder=\'匿名搜索\'><label for=\'type-mijisou\'><span style=\'color:#003daa\'>秘迹</span></label></li>");
+document.writeln("");
+document.writeln("<li><input checked hidden type=\'radio\'name=\'type\'id=\'type-sougou\'value=\'https://www.sogou.com/sogou?query=\'data-placeholder=\'搜狗搜索\'><label for=\'type-sougou\'><span style=\'color:#003daa\'>搜狗</span></label></li>");
 document.writeln("");
 
 
-document.writeln("<li><input checked hidden type=\'radio\'name=\'type\'id=\'type-google2\'value=\'https://www.google.com.hk/search?query=\'data-placeholder=\'谷歌搜索\'><label for=\'type-google2\'><span style=\'color:#003daa\'>谷歌</span></label></li>");
+document.writeln("<li><input checked hidden type=\'radio\'name=\'type\'id=\'type-google1\'value=\'https://search.ahau.cf/search?q=\'data-placeholder=\'Google搜索\'><label for=\'type-google1\'><span style=\'color:#003daa\'>谷歌</span></label></li>");
 
 
-document.writeln("<li><input checked hidden type=\'radio\'name=\'type\'id=\'type-panduoduo\'value=\'http://www.panduoduo.net/s/name/\'data-placeholder=\'文件搜索\'><label for=\'type-panduoduo\'><span style=\'color:#003daa\'>网盘</span></label></li>");
+document.writeln("<li><input checked hidden type=\'radio\'name=\'type\'id=\'type-yubaipan\'value=\'https://www.yubaipan.com/#/main/search?keyword=\'data-placeholder=\'网盘资源搜索\'><label for=\'type-yubaipan\'><span style=\'color:#003daa\'>网盘</span></label></li>");
 document.writeln("");
 document.writeln("");
 document.writeln("<li><input checked hidden type=\'radio\'name=\'type\'id=\'type-ditu\'value=\'https://ditu.amap.com/search?query=\'data-placeholder=\'高德地图\'><label for=\'type-ditu\'><span style=\'color:#003daa\'>地图</span></label></li>");
@@ -37,9 +39,9 @@ document.writeln("<li><input checked hidden type=\'radio\'name=\'type\'id=\'type
 document.writeln("");
 document.writeln("");
 document.writeln("<li><input checked hidden type=\'radio\'name=\'type\'id=\'type-yinyue\'value=\'https://music.163.com/#/search/m/?s=\'data-placeholder=\'网易云音乐\'><label for=\'type-yinyue\'><span style=\'color:#003daa\'>云村</span></label></li>");
-document.writeln("<li><input hidden type=\"radio\" name=\"type\" id=\"type-bilibili\" value=\"https://search.bilibili.com/all?keyword=\" data-placeholder=\"哔哩哔哩\"><label for=\"type-bilibili\"><span style=\"color:#003daa\">B站</span></label></li>						");
-document.writeln("<li><input hidden type=\"radio\" name=\"type\" id=\"type-github\" value=\"https://github.com/search?q=\" data-placeholder=\"Github\"><label for=\"type-github\"><span style=\"color:#003daa\">Github</span></label></li>						");
-
+document.writeln("<li><input hidden type=\"radio\" name=\"type\" id=\"type-bilibili\" value=\"https://search.bilibili.com/all?keyword=\" data-placeholder=\"哔哩哔哩视频\"><label for=\"type-bilibili\"><span style=\"color:#003daa\">B站</span></label></li>						");
+document.writeln("<li><input hidden type=\"radio\" name=\"type\" id=\"type-github\" value=\"https://github.com/search?q=\" data-placeholder=\"源码搜索\"><label for=\"type-github\"><span style=\"color:#003daa\">Github</span></label></li>						");
+document.writeln("<li><input checked hidden type=\'radio\'name=\'type\'id=\'type-magi\'value=\'https://magi.com/search?q=\'data-placeholder=\'智能搜索\'><label for=\'type-magi\'><span style=\'color:#003daa\'>Magi</span></label></li>");
 
 document.writeln("							</ul>");
 document.writeln("						</div>	");
@@ -51,11 +53,14 @@ document.writeln("      <span class=\"type-text\">学术</span>");
 document.writeln("      <ul class=\"search-type\">");
 document.writeln("		<li><input hidden=\"\" type=\"radio\" name=\"type\" id=\"type-xueshu\" value=\"http://xueshu.baidu.com/s?wd=\" data-placeholder=\"百度学术\"><label for=\"type-xueshu\"><span style=\"color:#003daa\">百度</span></label></li>		");
 document.writeln("    	<li><input hidden=\"\" type=\"radio\" name=\"type\" id=\"type-biyingxueshu\" value=\"http://cn.bing.com/academic/search?q=\" data-placeholder=\"必应学术\"><label for=\"type-biyingxueshu\"><span style=\"color:#003daa\">必应</span></label></li>		");
-document.writeln("		<li><input hidden=\"\" type=\"radio\" name=\"type\" id=\"type-zhiwang\" value=\"http://kns.cnki.net/kns/brief/Default_Result.aspx?code=SCDB&amp;kw=\" data-placeholder=\"知网文献\"><label for=\"type-zhiwang\"><span style=\"color:#003daa\">知网</span></label></li>		");
-document.writeln("		<li><input hidden=\"\" type=\"radio\" name=\"type\" id=\"type-xiaomuchou\" value=\"http://muchong.com/bbs/search.php?wd=\" data-placeholder=\"学术科研\"><label for=\"type-xiaomuchou\"><span style=\"color:#003daa\">小木虫</span></label></li>		");
-document.writeln("		<li><input hidden=\"\" type=\"radio\" name=\"type\" id=\"type-wanfang\" value=\"http://s.wanfangdata.com.cn/Paper.aspx?q=\" data-placeholder=\"万方论文\"><label for=\"type-wanfang\"><span style=\"color:#003daa\">万方</span></label></li>		");
-document.writeln("		<li><input hidden=\"\" type=\"radio\" name=\"type\" id=\"type-yingxiangyinzhi\" value=\"http://www.letpub.com.cn/index.php?page=journalapp&amp;view=search&amp;searchname=\" data-placeholder=\"SCI查询\"><label for=\"type-yingxiangyinzhi\"><span style=\"color:#003daa\">影响因子</span></label></li>		");
-document.writeln("		<li><input hidden=\"\" type=\"radio\" name=\"type\" id=\"type-iData\" value=\"https://search.ehn3.com/search?keyword=\" data-placeholder=\"知识检索\"><label for=\"type-iData\"><span style=\"color:#003daa\">iData</span></label></li>		");
+document.writeln("		<li><input hidden=\"\" type=\"radio\" name=\"type\" id=\"type-zhiwang\" value=\"http://kns.cnki.net/kns/brief/Default_Result.aspx?code=SCDB&amp;kw=\" data-placeholder=\"中国知网\"><label for=\"type-zhiwang\"><span style=\"color:#003daa\">知网</span></label></li>		");
+document.writeln("		<li><input hidden=\"\" type=\"radio\" name=\"type\" id=\"type-google2\" value=\"https://us8016.scholar.eu.org/scholar?hl=zh-CN&as_sdt=0%2C5&q=\" data-placeholder=\"Google学术\"><label for=\"type-google2\"><span style=\"color:#003daa\">谷歌</span></label></li>		");
+document.writeln("		<li><input hidden=\"\" type=\"radio\" name=\"type\" id=\"type-xiaomuchou\" value=\"http://muchong.com/bbs/search.php?wd=\" data-placeholder=\"学术交流\"><label for=\"type-xiaomuchou\"><span style=\"color:#003daa\">小木虫</span></label></li>		");
+document.writeln("		<li><input hidden=\"\" type=\"radio\" name=\"type\" id=\"type-scihub\" value=\"https://sci-hub.mksa.top/\" data-placeholder=\"输入DOI号下载文献\"><label for=\"type-scihub\"><span style=\"color:#003daa\">Sci-Hub</span></label></li>		");
+document.writeln("		<li><input hidden=\"\" type=\"radio\" name=\"type\" id=\"type-yingxiangyinzhi\" value=\"https://jcr.clarivate.com/JCRMasterSearchAction.action?pg=SEARCH&searchString=\" data-placeholder=\"期刊影响因子查询\"><label for=\"type-yingxiangyinzhi\"><span style=\"color:#003daa\">InCites</span></label></li>		");
+document.writeln("		<li><input hidden=\"\" type=\"radio\" name=\"type\" id=\"type-huiyi\" value=\"https://www.keoaeic.org/index.php?r=posts/meeting&keyword=\" data-placeholder=\"学术会议查询\"><label for=\"type-huiyi\"><span style=\"color:#003daa\">会议</span></label></li>		");
+document.writeln("		<li><input hidden=\"\" type=\"radio\" name=\"type\" id=\"type-zhuanli\" value=\"http://www.soopat.com/Home/Result?SearchWord=\" data-placeholder=\"专利搜索下载\"><label for=\"type-zhuanli\"><span style=\"color:#003daa\">专利</span></label></li>		");
+document.writeln("		<li><input hidden=\"\" type=\"radio\" name=\"type\" id=\"type-jingsai\" value=\"https://www.saihuan.net/search.php?mod=\" data-placeholder=\"竞赛信息查询\"><label for=\"type-jingsai\"><span style=\"color:#003daa\">竞赛</span></label></li>		");
 document.writeln("");
 document.writeln("      </ul>");
 document.writeln("</div>");
