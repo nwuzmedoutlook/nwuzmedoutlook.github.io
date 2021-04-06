@@ -5,51 +5,33 @@ document.writeln("					<div id=\'search-list\'class=\'hide-type-list\'>");
 document.writeln("						<div class=\'s-type\'>");
 document.writeln("							<span></span>");
 document.writeln("							<div class=\'s-type-list\'>");
-document.writeln("							<label for=\'type-baidu\'><span class=\'tile-lg bg-blue\'><i class=\'fa fa-search fa-2x m-t-sm\'></i></span>默认</label><label for=\'type-xueshu\'><span class=\'tile-lg bg-teal\'><i class=\'fa fa-book fa-2x m-t-sm\'></i></span>学术</label><label for=\'type-yinshi\'><span class=\'tile-lg bg-pink\'><i class=\'fa fa-video-camera fa-2x m-t-sm\'></i></span>影视</label>");
+document.writeln("							<label for=\'type-baidu\'><span class=\'tile-lg bg-blue\'><i class=\'fa fa-search fa-2x m-t-sm\'></i></span>默认</label><label for=\'type-xueshu\'><span class=\'tile-lg bg-teal\'><i class=\'fa fa-book fa-2x m-t-sm\'></i></span>学术</label><label for=\'type-yingshi\'><span class=\'tile-lg bg-pink\'><i class=\'fa fa-video-camera fa-2x m-t-sm\'></i></span>影视</label>");
 document.writeln("							<label for=\'type-yinle\'><span class=\'tile-lg bg-yl\'><i class=\'fa fa-music fa-2x m-t-sm\'></i></span>音乐</label> <label for=\'type-gongju\'><span class=\'tile-lg bg-gj\'><i class=\'fa fa-legal fa-2x m-t-sm\'></i></span>工具</label><label for=\'type-tupian\'><span class=\'tile-lg bg-tp\'><i class=\'fa fa-file-image-o fa-2x m-t-sm\'></i></span>图片</label>");
 document.writeln("							<label for=\'type-shequ\'><span class=\'tile-lg bg-sq\'><i class=\'fa fa-github fa-2x m-t-sm\'></i></span>社区</label><label for=\'type-sucai\'><span class=\'tile-lg bg-sc\'><i class=\'fa fa-tree fa-2x m-t-sm\'></i></span>素材</label><label for=\'type-shenghuo\'><span class=\'tile-lg bg-red\'><i class=\'fa fa-coffee fa-2x m-t-sm\'></i></span>生活</label>");
 document.writeln("							</div>");
 document.writeln("						</div>");
 
-document.writeln("                                                <div class=\'search-group group-c\'>");
-
-document.writeln("						<span class=\'type-text\'>默认</span>");
-document.writeln("							<ul class=\'search-type\'>");
-
+document.writeln("<div class=\'search-group group-c\'>");
+document.writeln("	<span class=\'type-text\'>默认</span>");
+document.writeln("		<ul class=\'search-type\'>");
 document.writeln("<li><input checked hidden type=\'radio\'name=\'type\'id=\'type-baidu\'value=\'https://www.baidu.com/s?wd=\'data-placeholder=\'百度一下\'><label for=\'type-baidu\'><span style=\'color:#003daa\'>百度</span></label></li>");
-document.writeln("");
-document.writeln("");
 document.writeln("<li><input checked hidden type=\'radio\'name=\'type\'id=\'type-bing\'value=\'https://cn.bing.com/search?q=\'data-placeholder=\'Bing搜索\'><label for=\'type-bing\'><span style=\'color:#003daa\'>必应</span></label></li>");
-document.writeln("");
-
-document.writeln("");
 document.writeln("<li><input checked hidden type=\'radio\'name=\'type\'id=\'type-sougou\'value=\'https://www.sogou.com/sogou?query=\'data-placeholder=\'搜狗搜索\'><label for=\'type-sougou\'><span style=\'color:#003daa\'>搜狗</span></label></li>");
-document.writeln("");
-
-
 document.writeln("<li><input checked hidden type=\'radio\'name=\'type\'id=\'type-google1\'value=\'https://search.ahau.cf/search?q=\'data-placeholder=\'Google搜索\'><label for=\'type-google1\'><span style=\'color:#003daa\'>谷歌</span></label></li>");
-
-
 document.writeln("<li><input checked hidden type=\'radio\'name=\'type\'id=\'type-yubaipan\'value=\'https://www.yubaipan.com/#/main/search?keyword=\'data-placeholder=\'网盘资源搜索\'><label for=\'type-yubaipan\'><span style=\'color:#003daa\'>网盘</span></label></li>");
-document.writeln("");
-document.writeln("");
 document.writeln("<li><input checked hidden type=\'radio\'name=\'type\'id=\'type-ditu\'value=\'https://ditu.amap.com/search?query=\'data-placeholder=\'高德地图\'><label for=\'type-ditu\'><span style=\'color:#003daa\'>地图</span></label></li>");
-document.writeln("");
 document.writeln("<li><input checked hidden type=\'radio\'name=\'type\'id=\'type-zhihu\'value=\'https://www.zhihu.com/search?q=\'data-placeholder=\'有问题上知乎\'><label for=\'type-zhihu\'><span style=\'color:#003daa\'>知乎</span></label></li>");
-document.writeln("");
-document.writeln("");
 document.writeln("<li><input checked hidden type=\'radio\'name=\'type\'id=\'type-yinyue\'value=\'https://music.163.com/#/search/m/?s=\'data-placeholder=\'网易云音乐\'><label for=\'type-yinyue\'><span style=\'color:#003daa\'>云村</span></label></li>");
 document.writeln("<li><input hidden type=\"radio\" name=\"type\" id=\"type-bilibili\" value=\"https://search.bilibili.com/all?keyword=\" data-placeholder=\"哔哩哔哩视频\"><label for=\"type-bilibili\"><span style=\"color:#003daa\">B站</span></label></li>						");
 document.writeln("<li><input hidden type=\"radio\" name=\"type\" id=\"type-github\" value=\"https://github.com/search?q=\" data-placeholder=\"源码搜索\"><label for=\"type-github\"><span style=\"color:#003daa\">Github</span></label></li>						");
 document.writeln("<li><input checked hidden type=\'radio\'name=\'type\'id=\'type-magi\'value=\'https://magi.com/search?q=\'data-placeholder=\'智能搜索\'><label for=\'type-magi\'><span style=\'color:#003daa\'>Magi</span></label></li>");
-
-document.writeln("							</ul>");
-document.writeln("						</div>	");
-
+document.writeln("</ul>");
+document.writeln("</div>	");
 
 
-document.writeln("						<div class=\'search-group group-a s-current\'>");
-document.writeln("      <span class=\"type-text\">学术</span>");
+
+document.writeln("<div class=\'search-group group-a s-current\'>");
+document.writeln("   <span class=\"type-text\">学术</span>");
 document.writeln("      <ul class=\"search-type\">");
 document.writeln("		<li><input hidden=\"\" type=\"radio\" name=\"type\" id=\"type-xueshu\" value=\"http://xueshu.baidu.com/s?wd=\" data-placeholder=\"百度学术\"><label for=\"type-xueshu\"><span style=\"color:#003daa\">百度</span></label></li>		");
 document.writeln("    	<li><input hidden=\"\" type=\"radio\" name=\"type\" id=\"type-biyingxueshu\" value=\"http://cn.bing.com/academic/search?q=\" data-placeholder=\"必应学术\"><label for=\"type-biyingxueshu\"><span style=\"color:#003daa\">必应</span></label></li>		");
@@ -61,38 +43,42 @@ document.writeln("		<li><input hidden=\"\" type=\"radio\" name=\"type\" id=\"typ
 document.writeln("		<li><input hidden=\"\" type=\"radio\" name=\"type\" id=\"type-huiyi\" value=\"https://www.keoaeic.org/index.php?r=posts/meeting&keyword=\" data-placeholder=\"学术会议查询\"><label for=\"type-huiyi\"><span style=\"color:#003daa\">会议</span></label></li>		");
 document.writeln("		<li><input hidden=\"\" type=\"radio\" name=\"type\" id=\"type-zhuanli\" value=\"http://www.soopat.com/Home/Result?SearchWord=\" data-placeholder=\"专利搜索下载\"><label for=\"type-zhuanli\"><span style=\"color:#003daa\">专利</span></label></li>		");
 document.writeln("		<li><input hidden=\"\" type=\"radio\" name=\"type\" id=\"type-jingsai\" value=\"https://www.saihuan.net/search.php?mod=\" data-placeholder=\"竞赛信息查询\"><label for=\"type-jingsai\"><span style=\"color:#003daa\">竞赛</span></label></li>		");
-document.writeln("");
 document.writeln("      </ul>");
 document.writeln("</div>");
 
 
-document.writeln("                                                <div class=\'search-group group-b\'>");
-document.writeln("                                              <span class=\'type-text\'>影视</span>");
-document.writeln("							<ul class=\'search-type\'>");
-document.writeln("<li><input hidden type=\'radio\'name=\'type\'id=\'type-yinshi\'value=\'http://www.nicotv.club/video/search/\'data-placeholder=\'妮可动漫搜索\'><label for=\'type-yinshi\'><span style=\'color:#003daa\'>妮可影视</span></label></li>");
-document.writeln("							   ");
-document.writeln("<li><input hidden type=\'radio\'name=\'type\'id=\'type-Neets\'value=\'https://neets.cc/search?key=\'data-placeholder=\'Neets搜索\'><label for=\'type-Neets\'><span style=\'color:#003daa\'>Neets</span></label></li>");
-document.writeln("								");
-document.writeln("<li><input hidden type=\'radio\'name=\'type\'id=\'type-bashi\'value=\'http://www.74mz.com/search?wd=\'data-placeholder=\'巴士动漫电影网\'><label for=\'type-bashi\'><span style=\'color:#003daa\'>巴士动漫</span></label></li>");
-document.writeln("								");
+document.writeln("<div class=\'search-group group-b\'>");
+document.writeln("   <span class=\'type-text\'>影视</span>");
+document.writeln("	    <ul class=\'search-type\'>");
+document.writeln("<li><input hidden type=\'radio\'name=\'type\'id=\'type-yingshi\'value=\'http://www.caomin5.net/vodsearch/-------------.html?wd=\'data-placeholder=\'草民电影网搜索\'><label for=\'type-yingshi\'><span style=\'color:#003daa\'>草民电影</span></label></li>");
+document.writeln("<li><input hidden type=\'radio\'name=\'type\'id=\'type-Neets\'value=\'https://neets.cc/search?key=\'data-placeholder=\'Neets视频搜索\'><label for=\'type-Neets\'><span style=\'color:#003daa\'>Neets</span></label></li>");
+document.writeln("<li><input hidden type=\'radio\'name=\'type\'id=\'type-Acfun\'value=\'https://www.acfun.cn/search?keyword=\'data-placeholder=\'Acfun弹幕视频\'><label for=\'type-Acfun\'><span style=\'color:#003daa\'>Acfun视频</span></label></li>");
 document.writeln("<li><input hidden type=\'radio\'name=\'type\'id=\'type-ckdiany\'value=\'https://www.ck180.net/search.html?q=\'data-placeholder=\'CK电影部落 \'><label for=\'type-ckdiany\'><span style=\'color:#003daa\'>CK电影</span></label></li>");
-document.writeln("");
 document.writeln("<li><input hidden type=\'radio\'name=\'type\'id=\'type-fenghk\'value=\'http://ifkdy.com/?q=\'data-placeholder=\'疯狂电影搜索\'><label for=\'type-fenghk\'><span style=\'color:#003daa\'>疯狂电影</span></label></li>	");
-document.writeln("							</ul>");
-document.writeln("</div>	");
-document.writeln("");
-document.writeln("");
+document.writeln("<li><input hidden type=\'radio\'name=\'type\'id=\'type-tengxun\'value=\'https://v.qq.com/x/search/?q=\'data-placeholder=\'腾讯视频\'><label for=\'type-tengxun\'><span style=\'color:#003daa\'>腾讯</span></label></li>	");
+document.writeln("<li><input hidden type=\'radio\'name=\'type\'id=\'type-aiqiyi\'value=\'https://so.iqiyi.com/so/q_\'data-placeholder=\'爱奇艺视频\'><label for=\'type-aiqiyi\'><span style=\'color:#003daa\'>爱奇艺</span></label></li>	");
+document.writeln("<li><input hidden type=\'radio\'name=\'type\'id=\'type-youku\'value=\'https://so.youku.com/search_video/q_\'data-placeholder=\'优酷视频\'><label for=\'type-youku\'><span style=\'color:#003daa\'>优酷</span></label></li>	");
+document.writeln("	</ul>");
+document.writeln("</div>");
+
+
 document.writeln("<div class=\'search-group group-d\'>");
 document.writeln("	<span class=\'type-text\'>音乐</span>");
 document.writeln("	<ul class=\'search-type\'>");
-document.writeln("		<li><input hidden=\'\' type=\'radio\' name=\'type\' id=\'type-yinle\' value=\'http://music.163.com/#/search/m/?s=\' data-placeholder=\'网易云音乐\'><label for=\'type-yinle\'><span style=\'color:#003daa\'>云音乐</span></label></li>");
-document.writeln("		<li><input hidden=\'\' type=\'radio\' name=\'type\' id=\'type-xiami\' value=\'http://www.xiami.com/search?key=\' data-placeholder=\'虾米音乐\'><label for=\'type-xiami\'><span style=\'color:#003daa\'>虾米</span></label></li>");
-document.writeln("		<li><input hidden=\'\' type=\'radio\' name=\'type\' id=\'type-qq-music\' value=\'https://y.qq.com/portal/search.html#searchid=1&amp;remoteplace=txt.yqq.top&amp;t=song&amp;w=\' data-placeholder=\'QQ音乐\'><label for=\'type-qq-music\'><span style=\'color:#003daa\'>QQ音乐</span></label></li>");
-document.writeln("		<li><input hidden=\'\' type=\'radio\' name=\'type\' id=\'type-ape8\' value=\'http://sou.kuwo.cn/ws/NSearch?type=all&catalog=yueku2016&key=\' data-placeholder=\'酷我音乐\'><label for=\'type-ape8\'><span style=\'color:#003daa\'>酷我音乐</span></label></li>");
-document.writeln("		<li><input hidden=\'\' type=\'radio\' name=\'type\' id=\'type-soundcloud\' value=\'https://www.kugou.com/yy/html/search.html#searchType=song&searchKeyWord=\' data-placeholder=\'酷狗音乐\'><label for=\'type-soundcloud\'><span style=\'color:#003daa\'>酷狗音乐</span></label></li>");
-document.writeln("		<li><input hidden=\'\' type=\'radio\' name=\'type\' id=\'type-baidu-music\' value=\'http://music.baidu.com/search?key=\' data-placeholder=\'千千音乐\'><label for=\'type-baidu-music\'><span style=\'color:#003daa\'>千千音乐</span></label></li>");
-document.writeln("	</ul>");
+document.writeln("		<li><input hidden=\'\' type=\'radio\' name=\'type\' id=\'type-yinle\' value=\'http://music.163.com/#/search/m/?s=\' data-placeholder=\'网易云音乐\'><label for=\'type-yinle\'><span style=\'color:#003daa\'>网易云</span></label></li>");
+document.writeln("		<li><input hidden=\'\' type=\'radio\' name=\'type\' id=\'type-migu\' value=\'https://music.migu.cn/v3/search?page=1&type=song&i=bea565fde42b062c0eb0d4465fead6b64c064223&f=html&s=1617634901&c=001002A&keyword=\' data-placeholder=\'咪咕音乐\'><label for=\'type-migu\'><span style=\'color:#003daa\'>咪咕</span></label></li>");
+document.writeln("		<li><input hidden=\'\' type=\'radio\' name=\'type\' id=\'type-qq-music\' value=\'https://y.qq.com/portal/search.html#searchid=1&amp;remoteplace=txt.yqq.top&amp;t=song&amp;w=\' data-placeholder=\'QQ音乐\'><label for=\'type-qq-music\'><span style=\'color:#003daa\'>QQ</span></label></li>");
+document.writeln("		<li><input hidden=\'\' type=\'radio\' name=\'type\' id=\'type-ape8\' value=\'http://sou.kuwo.cn/ws/NSearch?type=all&catalog=yueku2016&key=\' data-placeholder=\'酷我音乐\'><label for=\'type-ape8\'><span style=\'color:#003daa\'>酷我</span></label></li>");
+document.writeln("		<li><input hidden=\'\' type=\'radio\' name=\'type\' id=\'type-soundcloud\' value=\'https://www.kugou.com/yy/html/search.html#searchType=song&searchKeyWord=\' data-placeholder=\'酷狗音乐\'><label for=\'type-soundcloud\'><span style=\'color:#003daa\'>酷狗</span></label></li>");
+document.writeln("		<li><input hidden=\'\' type=\'radio\' name=\'type\' id=\'type-baidu-music\' value=\'http://music.baidu.com/search?key=\' data-placeholder=\'千千音乐\'><label for=\'type-baidu-music\'><span style=\'color:#003daa\'>千千</span></label></li>");
+document.writeln("		<li><input hidden=\'\' type=\'radio\' name=\'type\' id=\'type-jiuku\' value=\'https://baidu.9ku.com/song/?key=\' data-placeholder=\'九酷音乐\'><label for=\'type-jiuku\'><span style=\'color:#003daa\'>九酷</span></label></li>");
+document.writeln("		<li><input hidden=\'\' type=\'radio\' name=\'type\' id=\'type-douban\' value=\'https://search.douban.com/music/subject_search?search_text=\' data-placeholder=\'豆瓣音乐\'><label for=\'type-douban\'><span style=\'color:#003daa\'>豆瓣</span></label></li>");
+document.writeln("		<li><input hidden=\'\' type=\'radio\' name=\'type\' id=\'type-MuXiv\' value=\'https://muxiv.net\' data-placeholder=\'MuXiv Music\'><label for=\'type-MuXiv\'><span style=\'color:#003daa\'>MuXiv</span></label></li>");
+document.writeln("		<li><input hidden=\'\' type=\'radio\' name=\'type\' id=\'type-juhe\' value=\'http://www.gequdaquan.net/gqss\' data-placeholder=\'聚合音乐\'><label for=\'type-juhe\'><span style=\'color:#003daa\'>聚合</span></label></li>");
+document.writeln("	</ul>")
 document.writeln("</div>");
+
+
 document.writeln("<div class=\'search-group group-e\'>");
 document.writeln("      <span class=\'type-text\'>工具</span>");
 document.writeln("      <ul class=\'search-type\'>");
@@ -104,15 +90,25 @@ document.writeln("        <li><input hidden=\'\' type=\'radio\' name=\'type\' id
 document.writeln("        <li><input hidden=\'\' type=\'radio\' name=\'type\' id=\'type-ciku\' value=\'http://www.ciku5.com/s?wd=\' data-placeholder=\'请输入关键词\'><label for=\'type-ciku\'><span style=\'color:#003daa\'>关键词挖掘</span></label></li>");
 document.writeln("      </ul>");
 document.writeln("</div>");
+
+
 document.writeln("<div class=\'search-group group-f\'>");
 document.writeln("	<span class=\'type-text\'>图片</span>");
 document.writeln("	<ul class=\'search-type\'>");
 document.writeln("		<li><input hidden=\'\' type=\'radio\' name=\'type\' id=\'type-tupian\' value=\'http://image.baidu.com/search/index?tn=baiduimage&amp;ps=1&amp;ct=201326592&amp;lm=-1&amp;cl=2&amp;nc=1&amp;ie=utf-8&amp;word=\' data-placeholder=\'搜索百度图片\'><label for=\'type-tupian\'><span style=\'color:#003daa\'>百度</span></label></li>");
 document.writeln("		<li><input hidden=\'\' type=\'radio\' name=\'type\' id=\'type-hellorf\' value=\'http://www.hellorf.com/photo/search/all/\' data-placeholder=\'海洛图库\'><label for=\'type-hellorf\'><span style=\'color:#003daa\'>海洛图库</span></label></li>");
 document.writeln("		<li><input hidden=\'\' type=\'radio\' name=\'type\' id=\'type-BING\' value=\'http://cn.bing.com/images/search?q=\' data-placeholder=\'BING搜索引擎\'><label for=\'type-BING\'><span style=\'color:#003daa\'>Bing</span></label></li>");
-document.writeln("		<li><input hidden=\'\' type=\'radio\' name=\'type\' id=\'type-500px\' value=\'https://500px.com/search?q=\' data-placeholder=\'500PX 品质摄影社区\'><label for=\'type-500px\'><span style=\'color:#003daa\'>500PX</span></label></li>");
+document.writeln("		<li><input hidden=\'\' type=\'radio\' name=\'type\' id=\'type-500px\' value=\'https://500px.com.cn/community/search?key=\' data-placeholder=\'500PX 品质摄影社区\'><label for=\'type-500px\'><span style=\'color:#003daa\'>500PX</span></label></li>");
+
+document.writeln("		<li><input hidden=\'\' type=\'radio\' name=\'type\' id=\'type-wallhaven\' value=\'http://image.baidu.com/search/index?tn=baiduimage&amp;ps=1&amp;ct=201326592&amp;lm=-1&amp;cl=2&amp;nc=1&amp;ie=utf-8&amp;word=\' data-placeholder=\'Wallpaper Search\'><label for=\'type-wallhaven\'><span style=\'color:#003daa\'>wallhaven</span></label></li>");
+document.writeln("		<li><input hidden=\'\' type=\'radio\' name=\'type\' id=\'type-222\' value=\'http://www.hellorf.com/photo/search/all/\' data-placeholder=\'海洛图库\'><label for=\'type-222\'><span style=\'color:#003daa\'>图1</span></label></li>");
+document.writeln("		<li><input hidden=\'\' type=\'radio\' name=\'type\' id=\'type-333\' value=\'http://cn.bing.com/images/search?q=\' data-placeholder=\'BING搜索引擎\'><label for=\'type-333\'><span style=\'color:#003daa\'>图2</span></label></li>");
+document.writeln("		<li><input hidden=\'\' type=\'radio\' name=\'type\' id=\'type-444\' value=\'https://500px.com.cn/community/search?key=\' data-placeholder=\'500PX 品质摄影社区\'><label for=\'type-图3\'><span style=\'color:#003daa\'>500PX</span></label></li>");
+
 document.writeln("	</ul>");
 document.writeln("</div>");
+
+
 document.writeln("<div class=\'search-group group-g\'>");
 document.writeln("      <span class=\'type-text\'>社区</span>");
 document.writeln("      <ul class=\'search-type\'>");
@@ -123,6 +119,8 @@ document.writeln("        <li><input hidden=\'\' type=\'radio\' name=\'type\' id
 document.writeln("        <li><input hidden=\'\' type=\'radio\' name=\'type\' id=\'type-whyy\' value=\'https://ask.seowhy.com/search/?q=\' data-placeholder=\'SEO问答社区\'><label for=\'type-whyy\'><span style=\'color:#003daa\'>搜外问答</span></label></li>");
 document.writeln("      </ul>");
 document.writeln("</div>		");
+
+
 document.writeln("<div class=\'search-group group-h\'>");
 document.writeln("	<span class=\'type-text\'>素材</span>");
 document.writeln("	<ul class=\'search-type\'>");
@@ -135,6 +133,8 @@ document.writeln("		<li><input hidden=\'\' type=\'radio\' name=\'type\' id=\'typ
 document.writeln("		<li><input hidden=\'\' type=\'radio\' name=\'type\' id=\'type-officeplus\' value=\'http://www.officeplus.cn/List.shtml?cat=\' data-placeholder=\'Office Plus\'><label for=\'type-officeplus\'><span style=\'color:#003daa\'>PPT</span></label></li>");
 document.writeln("	</ul>");
 document.writeln("</div>	");
+
+
 document.writeln("<div class=\'search-group group-y\'>");
 document.writeln("      <span class=\'type-text\'>生活</span>");
 document.writeln("      <ul class=\'search-type\'>");
@@ -145,9 +145,10 @@ document.writeln("        <li><input hidden=\'\' type=\'radio\' name=\'type\' id
 document.writeln("        <li><input hidden=\'\' type=\'radio\' name=\'type\' id=\'type-12306\' value=\'http://www.12306.cn/?\' data-placeholder=\'12306\'><label for=\'type-12306\'><span style=\'color:#003daa\'>12306</span></label></li>");
 document.writeln("        <li><input hidden=\'\' type=\'radio\' name=\'type\' id=\'type-qunar\' value=\'https://www.qunar.com/?\' data-placeholder=\'去哪儿\'><label for=\'type-qunar\'><span style=\'color:#003daa\'>去哪儿</span></label></li>");
 document.writeln("        <li><input checked hidden type=\'radio\'name=\'type\'id=\'type-kuaidi2\'value=\'https://m.kuaidi100.com/result.jsp?nu=\'data-placeholder=\'输入快递单号\'><label for=\'type-kuaidi2\'><span style=\'color:#003daa\'>快递</span></label></li>");
-document.writeln("");
 document.writeln("      </ul>");
 document.writeln("    </div>");
+
+
 document.writeln("					</div>");
 document.writeln("					<form  height=\"50px\"  action=\'https://www.baidu.com/s?wd=\'method=\'get\'target=\'_blank\'id=\'super-search-fm\'>");
 document.writeln("						<input type=\'text\'id=\'search-text\'placeholder=\'百度一下\'style=\'outline:none\'autofocus/><button type=\'submit\'><i class=\'fa fa-search\'></i></button>");
