@@ -1917,10 +1917,10 @@ pre {
 .box2 {
     height: 70px;   # 修改单个方框高度
     cursor: pointer;
-    border-radius: 4px;
+    border-radius: 30px;
     padding: 0px 30px 0px 30px;
     background-color: #fff;
-    border-radius: 4px;
+    border-radius: 10px;  # 修改网站底部长方形的圆角大小
     border: 1px solid #e4ecf350;
     margin: 8px 0 0 0;
     -webkit-transition: all 0.3s ease;
@@ -2372,7 +2372,7 @@ img {
 }
 
 .img-circle {
-    border-radius: 50%;
+    border-radius: 8px; # 修改网站首字的背景圆角大小，写50%是正圆
 }
 
 hr {
