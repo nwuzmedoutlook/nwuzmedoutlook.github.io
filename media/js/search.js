@@ -88,6 +88,7 @@ document.writeln("        <li><input hidden=\'\' type=\'radio\' name=\'type\' id
 document.writeln("        <li><input hidden=\'\' type=\'radio\' name=\'type\' id=\'type-ping\' value=\'http://ping.chinaz.com/\' data-placeholder=\'请输入网址(不带http://)\'><label for=\'type-ping\'><span style=\'color:#003daa\'>PING检测</span></label></li>");
 document.writeln("        <li><input hidden=\'\' type=\'radio\' name=\'type\' id=\'type-404\' value=\'http://tool.chinaz.com/Links/?DAddress=\' data-placeholder=\'请输入网址(不带http://)\'><label for=\'type-404\'><span style=\'color:#003daa\'>死链检测</span></label></li>");
 document.writeln("        <li><input hidden=\'\' type=\'radio\' name=\'type\' id=\'type-ciku\' value=\'http://www.ciku5.com/s?wd=\' data-placeholder=\'请输入关键词\'><label for=\'type-ciku\'><span style=\'color:#003daa\'>关键词挖掘</span></label></li>");
+document.writeln("        <li><input hidden=\'\' type=\'radio\' name=\'type\' id=\'type-jingzhun\' value=\'https://jingzhunyun.com/search.php?q=\' data-placeholder=\'精准云工具\'><label for=\'type-jingzhun\'><span style=\'color:#003daa\'>云工具</span></label></li>");
 document.writeln("      </ul>");
 document.writeln("</div>");
 
@@ -150,6 +151,8 @@ document.writeln("        <li><input hidden=\'\' type=\'radio\' name=\'type\' id
 document.writeln("        <li><input hidden=\'\' type=\'radio\' name=\'type\' id=\'type-12306\' value=\'http://www.12306.cn/?\' data-placeholder=\'12306\'><label for=\'type-12306\'><span style=\'color:#003daa\'>12306</span></label></li>");
 document.writeln("        <li><input hidden=\'\' type=\'radio\' name=\'type\' id=\'type-qunar\' value=\'https://www.qunar.com/?\' data-placeholder=\'去哪儿\'><label for=\'type-qunar\'><span style=\'color:#003daa\'>去哪儿</span></label></li>");
 document.writeln("        <li><input checked hidden type=\'radio\'name=\'type\'id=\'type-kuaidi2\'value=\'https://m.kuaidi100.com/result.jsp?nu=\'data-placeholder=\'输入快递单号\'><label for=\'type-kuaidi2\'><span style=\'color:#003daa\'>快递</span></label></li>");
+document.writeln("        <li><input hidden=\'\' type=\'radio\' name=\'type\' id=\'type-wikiHow\' value=\'https://zh.wikihow.com/wikiHowTo?search=\' data-placeholder=\'最值得信赖的生活指南网站\'><label for=\'type-wikiHow\'><span style=\'color:#003daa\'>wikiHow</span></label></li>");
+document.writeln("        <li><input hidden=\'\' type=\'radio\' name=\'type\' id=\'type-eHow\' value=\'https://www.ehow.com/search?q=\' data-placeholder=\'DIY & HOW-TO EVERYTHING\'><label for=\'type-eHow\'><span style=\'color:#003daa\'>eHow</span></label></li>");
 document.writeln("      </ul>");
 document.writeln("    </div>");
 
