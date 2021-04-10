@@ -1,12 +1,12 @@
 .box2 {
-    height: 86px;
+    height: 66px;
     cursor: pointer;
-    border-radius: 4px;
-    padding: 0px 30px 0px 30px;
+    border-radius: 10px;
+    padding: 10px 10px 10px 10px;
     background-color: #fff;
-    border-radius: 4px;
+    border-radius: 10px;
     border: 1px solid #e4ecf3;
-    margin: 20px 0 0 0;
+    margin: 10px 0 10px 0;
     -webkit-transition: all 0.3s ease;
     -moz-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
