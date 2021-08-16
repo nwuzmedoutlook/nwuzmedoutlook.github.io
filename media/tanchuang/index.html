@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>DAC的奇妙世界</title>
+		<link rel="shortcut icon" href="https://nwuzmed.ga/images/avatar.png">
+		<link rel='stylesheet' href="css/reset.css">
+		<link rel='stylesheet' href="css/index1.css">
+		<!--<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  		<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />-->
+		<style>
+			@media all and (max-width:500px){
+    			initScreen{
+					position: absolute;
+					left:20%;
+					top:20%;
+					width: 60%;
+					height:320px;
+					z-index: 1000;
+					background:#fff;
+					color:#000;
+					border-radius: 30px;
+				}
+			}
+		</style>
+		<script>
+			
+			var dpr = 1 / window.devicePixelRatio;
+			//alert(window.screen.availWidth);
+//			document.write('<meta name="viewport" content="width=device-width,user-scalable=no,initial-scale='+dpr+',minimum-scale='+dpr+',maximum-scale='+dpr+'" />')
+			document.write('<meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,minimum-scale=1,maximum-scale=1 " />')
+			var fz = document.documentElement.clientWidth /9;
+			
+			document.getElementsByTagName('html')[0].style.fontSize = (fz*dpr) + 'px';
+			//console.log(fz,dpr);
+			
+			
+			window.onload = function(){
+				getType();
+			}
+			//判断设备是iPad还是iphone;
+			function getType(){  
+		        if(navigator.userAgent.indexOf("iPhone") != -1){  
+		            $(".initS").removeClass("initScreenIpad");
+		        }  
+		        if(navigator.userAgent.indexOf("iPad") != -1){ 
+		        	console.log($(".initScreen"));
+		            $(".initS").addClass("initScreenIpad");
+		            
+		        }
+		    }
+			
+			
+		</script>
+	</head>
+	<body>
+		<div id="wrap">			
+			<nav class="navbox">
+				<div class="navContent">
+					<div class="navList c-wenzi">
+						<i class="navIco-wenzi navico"></i>
+						<span class="navText">
+							横幅开关
+						</span>
+					</div>
+					<div class="navList c-yuyin"> 
+						<i class="navIco-yuyin navico"></i>
+						<span class="navText">
+							音乐开关
+						</span>
+					</div>
+					<div class="navList c-tanmu">
+						<i class="navIco-tanmu navico"></i>
+						<span class="navText">
+							弹幕开关
+						</span>
+					</div>
+					<div class="navList c-fatan">
+						<i class="navIco-fatan navico"></i>
+						<span class="navText">
+							发送弹幕
+						</span>
+					</div>
+					<div class="navList c-src">
+						<i class="navIco-src navico"></i>
+						<span class="navText">
+							视角切换
+						</span>
+					</div>
+					<!--<span><i class="navIco-share navico"></i></span>-->
+				</div>					
+				<div class="pothook">
+				</div>
+			</nav>		
+			<!--这里是嵌套的模型-->
+			<div class="model-wrap">
+				<iframe src="3d/index.html" width="100%" height="100%"></iframe>
+			</div>
+			<!--这里是弹幕-->
+			<!--<div class="tanmu">
+				<div class="tanmuContent">
+					<span class="headImg"></span>
+					这是一个弹幕
+					<div class="praiseBox">
+						<span class="t-praise t-praise1"></span>
+						<span class="t-numer">123</span>
+					</div>	
+				</div>		
+			</div>-->
+			<!--send start-->
+			<div class="send">
+				<div class="s_fiter">
+					<!--<div class="s_con">-->
+						<input type="text" class="s_txt" maxlength="50" placeholder="输入弹幕，最多50字，点击右侧按钮发送"/>
+						<div class="s_sub"></div>
+						<!--<input type="button" value="发送" class="s_sub"/>-->
+					<!--</div>-->
+				</div>
+			</div>
+			<!--end send-->
+		</div>
+		<audio src='http://ys-g.ys168.com/618551338/615522043/r534K5J365HMJHULjHSX9d/%E5%A5%94%E8%B5%B4%E6%98%9F%E7%A9%BA.mp3' class="audio"></audio>
+		<div class="bz">
+			<div class="bzContent">
+				DAC导航是专为在校大学生创建的导航网站，涵盖资源搜索、学术科研、高效工具、软件资源、影音娱乐、趣味网站、热门导航、免费素材、在线学习、公益实践、升学就业、科学上网、博客组建等13大门类，共计1000余个优质站点。QQ群号780665645,快快加入组织吧！
+			</div>	
+		</div>
+		<div class="initScreen initS">
+			<h3>告示&nbsp;&nbsp;<a href="https://jq.qq.com/?_wv=1027&k=liPvvBbz" target="_blank" style="color:#40bbea">点我加群🚗</a></h3>
+			<ol class="ollist">
+				<li>3D元素周期表，源码<a href="https://threejs.org/examples/css3d_periodictable.html" target="_blank" style="color:#40bbea;font-size:16px">three.js css3d👍</a></li>
+				<li>今天中午吃什么？<a href="http://chishenme.xyz/" target="_blank" style="color:#40bbea;font-size:16px">快来选一选🍗</a></li>
+				<li>狗屁不通文章生成器，<a href="https://suulnnka.github.io/BullshitGenerator/index.html?%E4%B8%BB%E9%A2%98=%E6%88%91%E5%96%9C%E6%AC%A2%E4%BD%A0&%E9%9A%8F%E6%9C%BA%E7%A7%8D%E5%AD%90=3192794663" target="_blank" style="color:#40bbea;font-size:16px">不试一试吗🙄</a></li>
+				<li>入侵网站！装逼神器之<a href="http://hackcode.ishoulu.com/scp/" target="_blank" style="color:#40bbea;font-size:16px">HackerTyper🐱‍👤</a></li>
+				<li>最全面的在线计算器了，<a href="http://www.jisuanqiol.com/" target="_blank" style="color:#40bbea;font-size:16px">懒人必备😎</a></li>
+				<!-- <li><i></i><a href="https://nwuzmed.ga/">DAC导航</a></li> # 前面带图标的功能简介 -->
+			</ol>
+			<span class="tanClose"></span>
+		</div>
+		<script src="jquery.min.js"></script>
+		<script src='index.js'></script>	
+	</body>
+</html>

@@ -1,0 +1,433 @@
+/*//运算 star
+@val: 100px;
+@rem: 46rem;//根据设计图大小找出默认rem的大小，64是计算过后的1rem的大小。64rem中的rem是为了在less中计算后添加单位*/
+
+body,html{
+    width:100%;
+    height:100%;
+}
+iframe{
+    font-size:40px;
+}
+#wrap{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+}
+.model-wrap{
+    height:100%;
+}
+.navbox{
+    position:absolute;
+    /*height: 50px;*/
+    width: 100%;
+    /*padding:10px 0;*/
+    /*z-index: 111;*/ 
+}
+.navContent{
+    position:absolute;
+    z-index:2 ;
+    display: flex;
+    justify-content:space-around;
+    height: 50px;
+    background:#1c1b21;
+    padding:10px 0;
+}
+.navbox .navList{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+}
+.navbox .navText{
+	height: 20px;
+    width: 100%;
+    float: left;
+    /*background:#00CCFF;*/
+    color:#fff;
+    font:12px/20px "微软雅黑";
+    text-align: center;
+    z-index:2;
+    opacity: 1;
+    display: flex;
+    justify-content: center;
+}
+.pothook{
+    position:absolute;
+    /*left:40%;*/
+    /*bottom:-50px;*/
+    width:160px;
+    height:26px;
+    padding-bottom:10px;
+    background:url(../img/navup2.gif) no-repeat;
+   /*background:#333;*/
+    background-size: 100% 80%;
+    display: inline-block;
+    margin-left:-80px;
+    left:50%;
+    top:70px;
+    /*position: relative;*/
+    z-index: 20;
+    /*opacity: 0.8;*/
+}
+.pothook img{
+    width: 44px;
+    height:26px;
+}
+/*.navshade{
+    position:absolute;
+    left:0;
+    top:0;
+    width:100%;
+    height:178px;
+    background:#000;
+    opacity: 0.7;
+    z-index: 1;
+}*/
+
+.navContent{
+    height:50px;
+    width:100%;
+    /*position: absolute;*/
+}
+.navContent .navico{
+    display: block;
+    width:24px;
+    height:24px;
+/*//  margin-left:85px;*/
+    background:orange;
+}
+.navContent .navIco-wenzi{
+    background: url(../img/icowz.png) no-repeat;
+    background-size: 100% 100%;
+}
+.navContent .navIco-yuyin{
+    background: url(../img/ico1g.png) no-repeat;
+    background-size: 100% 100%;
+}
+.navContent .navIco-tanmu{
+    background: url(../img/icotanmu.png) no-repeat;
+    background-size: 100% 100%;
+}
+.navContent .navIco-fatan{
+    background: url(../img/icofadan.png) no-repeat;
+    background-size: 100% 100%;
+}
+.navContent .navIco-src{
+    background: url(../img/icofukan.png) no-repeat;
+    background-size: 100% 100%;
+}
+/*项目介绍*/
+.item-introduce{
+    padding: 5%;
+    position:absolute;
+    left:15%;
+    top:20%;
+    width:60%;
+    /*height:50%;*/
+    background:#fff;
+    z-index: 100;
+    display: none;
+}
+.introduceText{ 
+    /*font:0.3rem/0.8rem  "微软雅黑";*/ 
+}
+.introduceText h3{
+    text-align: center; 
+    font:bold 16px/30px  "微软雅黑"; 
+}
+.introduceText .i-t-content{
+    font:14px/26px "微软雅黑";
+    text-indent: 2em;
+}
+.introduceClose{
+    width:40px;
+    height:40px;
+    border-radius: 20px;
+    background:#333;
+    position:absolute;
+    margin-left:-20px;
+    left:50%;
+    bottom:-60px;
+    opacity: 0.5;
+    font: 36px/40px "微软雅黑"; s
+    text-align:center;
+}
+/*弹幕*/
+.tanmu{
+    /*width:100%;
+    height: 80%;
+    position:absolute;
+    left: 0;
+    top: 10%;
+    font-size:40px;*/
+    z-index: 22;
+}
+.tanmu{ 
+    position:absolute;
+    height:34px;
+    border-radius:45px;
+    background:#fff;
+    color:#333;
+    left:0;
+    top:0;
+    font-size:16px;
+    white-space:nowrap;
+    padding-left:2px;
+    /*padding-right:10px;*/
+    line-height:34px;
+    opacity: 0.9;
+   
+}
+.tanmuContent{
+	display: flex;
+    justify-content: space-between;
+}
+.headImg{
+    /*position:absolute;
+    left:2px;
+    top:2px;*/
+   	margin-top:2px;
+   	margin-right:5px;
+   	display:inline-block;
+    width:30px;
+    height:30px;
+    background:red;
+    border-radius: 41px;
+    
+}
+.headImg img{
+   width: 100%;
+   height:100%;
+   border-radius: 50%;
+}
+.tanmu .praiseBox{
+	/*position:absolute;*/
+    /*right:10px;*/
+  	display: inline-block;
+    height:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:0 10px;
+}
+.tanmu .t-praise{
+	display: inline-block;
+    width:15px;
+    height:16px;
+    background:url(../img/zan0.png) no-repeat;
+    background-size: 100% 100%;
+    margin-right:3px;
+}
+.tanmu .t-praise1{
+    background:url(../img/zan.png) no-repeat;
+    background-size: 100% 100%;
+}
+.tanmu .t-numer{
+	display: inline-block;
+	font-size: 16px;
+	color:#666;
+}
+.tanmu .t-color{
+	color:#f7ad42;
+}
+/*底部*/
+.send {
+    width: 30%;
+    height: 36px;
+    position: absolute;
+    bottom:12px;
+    right: 2%;
+    display: none;
+}
+.send .s_fiter {
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    position:absolute;
+    bottom:0;
+    left: 0;
+    border-radius:18px;
+    /*opacity: 0.8;*/
+    /*filter: alpha(opacity=80);*/
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.send .s_con {
+    width: 100%;
+    height: 28px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    text-align: center;
+    line-height: 1.15rem;
+   
+}
+.send .s_txt { 
+/*//  float:left;*/
+    font-size:14px;
+    width: 70%;
+    height: 28px;
+/*//  border-radius: 0.1rem 0 0 0.1rem;*/
+    outline: none;
+    border:none;
+/*//  margin-top:15px;*/
+    margin-left:40px;
+}
+.send .s_sub {
+/*//  float:right;
+//  margin-top:15px;*/
+    margin-right:3px;
+    display: inline-block;   
+    width: 30px;
+    height:30px;
+    background:url(../img/ok.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+/*全景*/
+.panorama{
+    position:absolute;
+    left:0;
+    top:0;
+    width: 100%;
+    height:100%;
+    z-index: 110; 
+}
+.cursor{
+    cursor:pointer;
+}
+.panorama .pa-quit{
+    position:absolute;
+    right:0;
+    top:0;
+    width: 40px;
+    height:26px;
+    font:16px "微软雅黑";
+    line-height:26px;
+    text-align: center;
+    z-index:111; 
+    background:#333;
+    color:#fff;
+}
+/*文字介绍*/
+
+.bz{
+	position:absolute;
+	bottom:120px;
+	width: 100%;
+	height:40px;
+	overflow: hidden;
+}
+.bzContent{
+	position:absolute;
+	font:16px/40px PingFangSC;
+	white-space:nowrap;
+	color:#fff;
+	padding-left:100%;
+	text-shadow: 0 0 0 #fff;
+	display: inline-block;
+}
+
+.initScreen{
+	position: absolute;
+	left:0%;
+	bottom:0%;
+	/*margin-left:-130px;*/
+	width: 300px; # 修改功能介绍白框的宽度
+	height:290px; # 修改功能介绍白框的高度
+	z-index: 1000;
+	background:#fff;
+	color:#000;
+	border-radius: 10px;
+	border:2px solid #999;
+}
+
+
+.initScreen h3{
+	font:bold 22px/70px  "微软雅黑";
+	text-align: center;
+}
+
+.initScreen .tanClose{
+	position: absolute;
+	right:10px;
+	top:10px;
+	width: 30px;
+	height:30px;
+	background:url(../img/tanClose.png) no-repeat;
+	background-size:100% 100%;
+	
+}
+.initScreen ol{
+	padding-left:2% ; # 修改白框里面正文内容距离左侧的距离，也可以用2px
+	list-style: none;
+	margin:0;
+}
+.initScreen ol li{
+	font:16px/30px  "微软雅黑";
+}
+.ollist li{
+	height:40px;
+	font-size: 18px;
+	display: flex;
+	justify-content:flex-start;
+}
+ol li:nth-of-type(1) i{
+	background:url(../img/tan-ico-txt.png) no-repeat;
+	background-size: 100% 100%;	
+}
+ol li:nth-of-type(2) i{
+	background:url(../img/tan-ico-voice.png) no-repeat;
+	background-size: 100% 100%;	
+}
+ol li:nth-of-type(3) i{
+	background:url(../img/tan-ico-screen.png) no-repeat;
+	background-size: 100% 100%;
+}
+ol li:nth-of-type(4) i{
+	background:url(../img/tan-ico-message.png) no-repeat;
+	background-size: 100% 100%;
+}
+ol li:nth-of-type(5) i{
+	background:url(../img/tan-ico-visit.png) no-repeat;
+	background-size: 100% 100%;
+}
+
+ol i{
+	display: inline-block;
+	width:32px;
+	height:32px;
+	margin-right:10px;
+}
+
+
+.initScreenIpad{
+	position: absolute;
+	left:25%;
+	top:27%;
+	width: 50%;
+	height:340px;
+	z-index: 1000;
+	background:#fff;
+	color:#000;
+	border-radius: 10px;
+	padding-top:20px;
+	border:2px solid #999;
+}
+.initScreenIpad ol{
+	position: absolute;
+	top:100px;
+	left:20%;
+	width:60%;
+	padding: 0;
+}
+.initScreenIpad li{
+	height:40px;
+	font-size: 18px;
+	display: flex;
+	justify-content:flex-start;
+}
