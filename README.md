@@ -22,6 +22,6 @@ DAC在提供网站指引和导航的同时，也免费提供资源搜索、下�
 4、网站的服务器在国外，同时你的网络不稳定或网速太慢导致加载超时（换用更高速的网络）；<br>
 5、本网站运行出错（留言反馈）。<br>
 
-如果你有更优质的甚至是自己的网站，我乐意你[推荐给我](https://support.qq.com/products/313460?#label=show)；
-如果你觉得网站还有改进之处，真诚地希望你可以[留言反馈](https://support.qq.com/products/313460?#label=show)；
-如果还有如果，那就等我下次再写……
+如果你有更优质的甚至是自己的网站，我乐意你[推荐给我](https://support.qq.com/products/313460?#label=show)；<br>
+如果你觉得网站还有改进之处，真诚地希望你可以[留言反馈](https://support.qq.com/products/313460?#label=show)；<br>
+如果还有如果，那就等我下次再写……<br>
