@@ -1,10 +1,10 @@
-DAC导航 | 让校园生活更加精彩！  
+DAC导航 | 让校园生活更加精彩！<br>
 https://studyhard.eu.org/
 
-最初版站点域名（nwuzmed.ga）已失效
-旧版备用域名如下（随时可能失效）
-https://dacdh.cf/
-https://dacdaohang.cf/
+最初版站点域名（nwuzmed.ga）已失效<br>
+旧版备用域名如下（随时可能失效）<br>
+https://dacdh.cf/<br>
+https://dacdaohang.cf/<br>
 
 DAC导航交流群已开通，[点击这里加入哦！](https://qm.qq.com/cgi-bin/qm/qr?k=EN5zgCRquP85ZEpOV50K1RjNYhVDWCDQ&authKey=417cYvALFfyByeShn4jKYKuR5qrd0wEWruChl2OejoFTLDdR%2FwDDU0lGk70fhlAJ&noverify=0&group_code=780665645)
 
